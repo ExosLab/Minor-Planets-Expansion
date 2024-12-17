@@ -33,6 +33,7 @@ MPE 1.1 Patch Notes:
    - Havous, Mracksis, Ervo, and Soden moved inwards
      (Orbits are proportional to Jool's orbit as they are with Neidon in OPM)
    - Crokslev made Jool Trojan
+ - Stock system descriptions added for Crokslev, Havous, Mracksis, and Ervo
 
 *Added Optional Bonus Content*
  - Jool Rings
