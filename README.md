@@ -44,6 +44,8 @@ MPE 1.1 Patch Notes:
    - New lake colors and overlays for Ervo
    - Completely redone Archae colormap
    - Completely redone Havous colormap
+   - Completely redone Crokslev colormap
+   - Changed Crokslev's orbit color
    - Additional texturing added to Kal's colormap
    - Additional texturing added to Ki'Ki's colormap
    - Mracksis' colormap adjusted to reflect new terrain
