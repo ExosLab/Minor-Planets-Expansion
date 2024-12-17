@@ -1,0 +1,247 @@
+﻿@Kopernicus:FOR[MPE]
+{
+	Body
+	{
+		name = Crokslev
+		cacheFile = MPE/Cache/Crokslev.bin
+		Template
+		{
+			name = Minmus
+			removeAllPQSMods = true
+		}
+		Properties
+		{
+			displayName = #LOC_MPE_Planets_Crokslev_displayName
+			description = #LOC_MPE_Planets_Crokslev_description
+			radius = 32500
+			geeASL = 0.025
+			isHomeWorld = false
+			tidallyLocked = false
+			rotationPeriod = 15000
+			timewarpAltitudeLimits = 0 100 100 1000 1000 5000 10000 20000
+			ScienceValues
+			{
+				landedDataValue = 12
+				inSpaceLowDataValue = 11
+				inSpaceHighDataValue = 10
+				recoveryValue = 10
+				spaceAltitudeThreshold = 80000
+			}
+			biomeMap = MPE/MPE_Textures/PluginData/Crokslev_biomes.png
+			Biomes
+			{
+				Biome
+				{
+					name = Poles
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName1
+					color = #8e1b1b
+					value = 1
+				}
+				Biome
+				{
+					name = Midlands
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName2
+					color = #8e561c
+					value = 1
+				}
+				Biome
+				{
+					name = Highlands
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName3
+					color = #ec8215
+					value = 1
+				}
+				Biome
+				{
+					name = Craters
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName4
+					color = #ba9090
+					value = 1
+				}
+				Biome
+				{
+					name = Rubble
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName5
+					color = #a67c50
+					value = 1
+				}
+				Biome
+				{
+					name = BigCrater
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName6
+					color = #470e0e
+					value = 1.2
+				}
+				Biome
+				{
+					name = CentralPeak
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName7
+					color = #ff7676
+					value = 1.2
+				}
+				Biome
+				{
+					name = Fissures
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName8
+					color = #655252
+					value = 1.2
+				}
+				Biome
+				{
+					name = SouthernPile
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName9
+					color = #d58a3c
+					value = 1.2
+				}
+				Biome
+				{
+					name = OriginCrater
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName10
+					color = #745757
+					value = 1.5
+				}
+				Biome
+				{
+					name = SatCraters
+					displayName = #LOC_MPE_Planets_Crokslev_BiomeName11
+					color = #392a2a
+					value = 1.5
+				}
+			}
+		}
+		Orbit
+		{
+			referenceBody = Sun
+			semiMajorAxis = 236693800000
+			inclination = 23.382
+			eccentricity = 0.03
+			longitudeOfAscendingNode = 300.43
+			argumentOfPeriapsis = 242.9
+			meanAnomalyAtEpoch = 77.67
+			epoch = 1
+			color = 0.502,0.502,0.502,1
+			iconTexture = MPE/MPE_Textures/PluginData/Large.dds
+		}
+		ScaledVersion
+		{
+			fadeStart = 10000
+			fadeEnd = 15000
+			Material
+			{
+				shininess = 1
+				specColor = 0, 0, 0, 1
+			}
+			OnDemand
+			{
+				texture = MPE/MPE_Textures/PluginData/Crokslev_color.dds
+				normals = MPE/MPE_Textures/PluginData/Crokslev_normal.dds
+			}
+		}
+		PQS
+		{
+			fadeStart = 10000
+			fadeEnd = 15000
+			deactivateAltitude = 16000
+			Mods
+			{
+				VertexHeightMap
+				{
+					map = MPE/MPE_Textures/PluginData/Crokslev_shape.dds
+					offset = 0
+					deformity = 4000
+					scaleDeformityByRadius = False
+					order = 10
+					enabled = True
+				}
+				HeightColorMap
+				{
+					blend = 1
+					order = 3
+					enabled = true
+					LandClasses
+					{
+						Class
+						{
+							name = Baselands
+							altitudeStart = 0
+							altitudeEnd = 0.3
+							color = 0.272,0.238,0.238,1
+							lerpToNext = True
+						}
+						Class
+						{
+							name = Lowlands
+							altitudeStart = 0.3
+							altitudeEnd = 0.6
+							color = 0.411,0.402,0.402,1
+							lerpToNext = True
+						}
+						Class
+						{
+							name = Midlands
+							altitudeStart = 0.6
+							altitudeEnd = 0.8
+							color = 0.402,0.402,0.402,1
+							lerpToNext = True
+						}
+						Class
+						{
+							name = Highlands
+							altitudeStart = 0.8
+							altitudeEnd = 1
+							color = 0.625,0.625,0.625,1
+							lerpToNext = False
+						}
+					}
+				}
+				VertexHeightNoiseVertHeightCurve2
+				{
+					deformity = 300
+					ridgedAddSeed = 1
+					ridgedAddFrequency = 20
+					ridgedAddLacunarity = 2
+					ridgedAddOctaves = 6
+					ridgedMode = High
+					ridgedSubSeed = 1
+					ridgedSubFrequency = 5
+					ridgedSubLacunarity = 2
+					ridgedSubOctaves = 6
+					simplexCurve
+					{
+						key = 0 0 0.1466263 0.1466263
+						key = 0.7922793 0 0.6761706 1.497418
+						key = 1 1 6.106985 6.106985
+					}
+					simplexHeightStart = -8000
+					simplexHeightEnd = 1000
+					simplexSeed = 1
+					simplexOctaves = 3						
+					simplexPersistence = 0.3
+					simplexFrequency = 8
+					enabled = true
+					order = 6		
+				}
+			}
+		}
+		Rings
+		{
+			Ring
+			{
+				angle = 0
+				innerRadius = 3400
+				outerRadius = 3500
+				texture = MPE/MPE_Textures/PluginData/Crokslev_rings.dds
+				color = 1,1,1,1
+				unlit = false
+				lockRotation = true
+				useNewShader = true
+				penumbraMultiplier = 8
+			}
+		}
+		Debug
+		{
+			exportMesh = true
+			update = true
+		}
+	}
+}

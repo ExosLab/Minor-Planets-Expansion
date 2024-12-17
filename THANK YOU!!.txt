@@ -1,0 +1,39 @@
+Minor Planets Expansion 1.1
+Made for Kopernicus 1.12.x
+Tested in KSP 1.11.x
+Special thanks to CaptRobau and Poodmund for creating and maintaining one of the most popular planet packs ever made, their fantastic contribution to the KSP community, The Outer Planets Mod, greatly inspired me to take the time to add new ambitious frontiers to the solar system during our exciting time of robotic exploration.
+Thank you to Interplanet Janet on the KSP forums for briefly taking over for me, couldn't have done it without you.
+Thank you to @IIodyne, @Coolguybest, and @hemeac for contributions on the fan github!
+
+Object List:
+Edas - Eros Analogue
+Vant - Vesta Analogue
+Zore - Psyche Analogue
+Lint/Mikey - 67P Analogue
+Crokslev - Chariklo Analogue
+Gieto - Halley's Comet Analogue
+Havous - Haumea Analogue
+	Kal - Namaka Analogue
+	Ki'Ki - Hi'iaka Analogue
+Mracksis - Makemake Analogue
+	Flake - Acknowledgement of MK2, the only known moon of Makemake, Flake shares no features with it however.
+Ervo - Eris Analogue
+	Archae - Dysnomia Analogue
+Soden - Sedna Analogue
+	Lon - Soden's lone moon, no analogue in real life, simply serves to make Soden more interesting.
+
+Installation is a very simple process, simply move the MPE Folder found in the Gamedata folder beside this document to the 
+Gamedata folder found within your KSP folder.
+
+Thank you so much for downloading my little labor of love! After searching for about a month I found no mods that were both 
+compatible with OPM and added well made semi-accurate analogue of dwarf planets and/or asteroids from our solar system. So, about five months
+ago from me typing this, I took it upon myself to write down a list of 9 objects that I wanted to see added to the stock+OPM system, and wrote
+out some basic ideas for what those analogues might be like. They've changed quite a fair bit since their initial conception, but I am more than 
+happy with the turn out! This would never have been possible without help and support from GregroxMun, Adstri, WarriorSabe, ElectricPants, SnailsAttack,
+Zaffre, Gameslinx, Borv413, TheGhastModding, "a humble Kunosher who has nothing to do and he loves lizards" (his words, not mine), Interplanet Janet, and a fair few other members of the planet modding community. These fine folks did more than their fair share of help with assisting
+me in learning how to use Kopernicus, test the mod out, bugfix, and build me the courage to keep going!
+
+I really do hope you enjoy these worlds as much as I have enjoyed crafting them, and look out for my projects to come! Once again, thank you for downloading MPE: The Minor Planets Expansion!
+
+With much love,
+ - Exo

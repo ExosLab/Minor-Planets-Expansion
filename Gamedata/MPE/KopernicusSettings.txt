@@ -1,0 +1,5 @@
+@Kopernicus:FOR[MPE]
+{
+	%useOnDemand = True
+	%useManualMemoryManagement = True
+}
