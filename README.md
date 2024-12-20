@@ -46,9 +46,11 @@ MPE 1.1 Patch Notes:
    - Completely redone Archae colormap
    - Completely redone Havous colormap
    - Completely redone Crokslev colormap
+   - Completely redone Zore colormap
    - Changed Crokslev's orbit color
    - Additional texturing added to Kal's colormap
    - Additional texturing added to Ki'Ki's colormap
+   - Additional texturing added to Vant's colormap
    - Mracksis' colormap adjusted to reflect new terrain
    - Subtle slope coloration to break up Soden's flatter regions
 
@@ -60,6 +62,7 @@ MPE 1.1 Patch Notes:
    - Ki'Ki, added new noise mods
    - Mracksis, increased deformity, added procedrual craters
    - Soden, increased deformity
+   - Added new procedural craters to Zore
 
 *Additional Functionality*
  - Added Stock Terrain Scatters for All Bodies
@@ -68,5 +71,7 @@ MPE 1.1 Patch Notes:
  - Fixed Flashing Terrain Errors
  - Fixed Terraced Terrain on Ki'Ki
  - Fixed Discolored Terrain on Ki'Ki
+ - Fixed Irregular Resolution for Zore's Crater Heightmap
  - Identified Incompatibility with Stock Maneuver Tool 
    - (KSPCommunityFixes added as dependancy)
+ - Adjusted PQS/Scaled Fades for Most Bodies
