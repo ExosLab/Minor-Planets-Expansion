@@ -1,11 +1,11 @@
 To install MPE, move the MPE folder you downloaded into KSP's Gamedata folder, as with any other mod!
-To swap language to Russian, replace the en-us.cfg folder within MPE's main folder with the ru.cfg which can be found within the Localizations folder.
+To swap languages, replace the en-us.cfg folder within MPE's main folder with the ru.cfg or es.cfg files which can be found within the Localizations folder.
 The license, README, THANK YOU!!.txt, and the Localizations folder itself are not necessary to MPE's functionality.
 
 The Nereid folder, also found in the download, contains ribbons for use with Nereid's Final Frontier mod, which gives Kerbals badges for their achievements. This support was created by forum user @hemeac!
 Special thank you to forum users @Coolguybest, @IIodyne, and @InterplanetJanet for additional support with bugfixes and additional features over the years!
 
-
+Thank you to @Kunosheru for the Russian Language Config and setting up MPE for localization, and @InterplanetJanet for MPE's Spanish Language Config!
 
 An explaination on MPE's new **BONUS CONTENT**:
 MPE has been given some ADDITIONAL, OPTIONAL FEATURES, for use alongside it!
@@ -35,6 +35,8 @@ MPE 1.1 Patch Notes:
    - Crokslev made Jool Trojan
  - Stock system descriptions added for Crokslev, Havous, Mracksis, and Ervo
 
+*Added Support for Kerbol System Expansion*
+
 *Added Optional Bonus Content*
  - Jool Rings
  - Enhanced Jool Rings
@@ -53,6 +55,7 @@ MPE 1.1 Patch Notes:
    - Additional texturing added to Vant's colormap
    - Mracksis' colormap adjusted to reflect new terrain
    - Subtle slope coloration to break up Soden's flatter regions
+   - Completely Remade Edas
 
 *Enhanced Terrain*
  - Changes to PQS Terrain on Several Bodies
@@ -66,6 +69,7 @@ MPE 1.1 Patch Notes:
 
 *Additional Functionality*
  - Added Stock Terrain Scatters for All Bodies
+ - Added Spanish Translations Curtosy of @InterplanetJanet
 
 *Bug Fixes*
  - Fixed Flashing Terrain Errors
