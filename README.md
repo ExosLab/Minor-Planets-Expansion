@@ -28,6 +28,8 @@ MPE 1.1 Patch Notes:
    - These are repurposed Scatterer atmospheres 
    - Do Not Affect Gameplay
 
+*Added Partial Parallax Support*
+
 *Added Stock System Support*
  - When OPM is not installed, some of MPE's objects will be moved appropriately
    - Havous, Mracksis, Ervo, and Soden moved inwards
@@ -70,6 +72,7 @@ MPE 1.1 Patch Notes:
 *Additional Functionality*
  - Added Stock Terrain Scatters for All Bodies
  - Added Spanish Translations Curtosy of @InterplanetJanet
+ - Added SpaceDust Support Curtosy of @DareMightyThingsJPL
 
 *Bug Fixes*
  - Fixed Flashing Terrain Errors
